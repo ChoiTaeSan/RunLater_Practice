@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="150.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.runlater_practice.HelloController">
+    <children>
+        <Label fx:id="lb_time" alignment="CENTER" layoutX="30.0" layoutY="29.0" prefHeight="75.0" prefWidth="243.0" style="-fx-background-color: #000; -fx-text-fill: #fff;" text="Label">
+            <font>
+                <Font size="58.0" />
+            </font>
+        </Label>
+        <Button fx:id="btn_start" layoutX="30.0" layoutY="104.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="119.0" text="시작" />
+        <Button fx:id="btn_stop" layoutX="154.0" layoutY="104.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="119.0" text="멈춤" />
+    </children>
+</AnchorPane>
